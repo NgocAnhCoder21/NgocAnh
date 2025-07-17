@@ -552,7 +552,7 @@ body, .main-content {
 }
 @media (max-width: 768px) {
   .sidebar {
-    border-radius: 0 0 32px 32px;
+    border-radius: 0 !important;
   }
   .main-content {
     padding: 10px 2px;
@@ -569,4 +569,29 @@ body, .main-content {
   height: 100%;
   display: block;
   border: none;
+}
+
+/* Bỏ bo góc cho sidebar, card, menu-link, button, app-viewer-container, highlight-link, search-form, theme-toggle-track, theme-toggle-indicator */
+.sidebar,
+.sidebar.collapsed,
+.sidebar-header .header-logo,
+.sidebar-content .search-form,
+.menu-list .menu-link,
+.sidebar-footer .theme-toggle,
+.theme-toggle .theme-toggle-track,
+.theme-toggle-track .theme-toggle-indicator,
+.main-content .card,
+.app-viewer-container,
+.highlight-link {
+  border-radius: 0 !important;
+}
+
+/* Responsive: bỏ bo góc sidebar trên mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    border-radius: 0 !important;
+  }
+  .app-viewer-container {
+    border-radius: 0 !important;
+  }
 }
