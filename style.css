@@ -202,11 +202,11 @@ body {
 }
 
 .menu-list .menu-link:is(:hover, .active) {
-  background: linear-gradient(90deg, #4fc3f7 0%, #ffe066 100%);
+  background: linear-gradient(90deg, #ffb6b9 0%, #ffe5ec 100%);
   color: #fff;
   transform: scale(1.07);
-  box-shadow: 0 4px 24px 0 #4fc3f722;
-  border: 2px solid #ffe06644;
+  box-shadow: 0 4px 24px 0 #ffb6b922;
+  border: 2px solid #ffe5ec44;
 }
 
 .sidebar .sidebar-footer {
@@ -456,26 +456,26 @@ body.dark-theme .theme-toggle-indicator {
   border: 2px solid transparent;
 }
 .menu-list .menu-link:is(:hover, .active) {
-  background: linear-gradient(90deg, #4fc3f7 0%, #ffe066 100%);
+  background: linear-gradient(90deg, #ffb6b9 0%, #ffe5ec 100%);
   color: #fff;
   transform: scale(1.07);
-  box-shadow: 0 4px 24px 0 #4fc3f722;
-  border: 2px solid #ffe06644;
+  box-shadow: 0 4px 24px 0 #ffb6b922;
+  border: 2px solid #ffe5ec44;
 }
 
 /* BUTTONS GRADIENT */
 .buttons button, .sidebar-footer .theme-toggle {
-  background: linear-gradient(90deg, #4fc3f7 0%, #ffe066 100%);
+  background: linear-gradient(90deg, #ffb6b9 0%, #ffe5ec 100%);
   color: #fff;
   border: none;
-  box-shadow: 0 4px 16px 0 #4fc3f722;
+  box-shadow: 0 4px 16px 0 #ffb6b922;
   transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
   font-weight: 600;
   letter-spacing: 0.04em;
 }
 .buttons button:hover, .sidebar-footer .theme-toggle:hover {
-  background: linear-gradient(90deg, #ffe066 0%, #4fc3f7 100%);
-  box-shadow: 0 8px 32px 0 #ffe06622;
+  background: linear-gradient(90deg, #ffe5ec 0%, #ffb6b9 100%);
+  box-shadow: 0 8px 32px 0 #ffe5ec22;
   transform: translateY(-3px) scale(1.06);
 }
 
